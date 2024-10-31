@@ -1,0 +1,17 @@
+@use "../colors" as *;
+
+.btn {
+    background-color: $white;
+    color: $purple;
+    padding: 0.7em 1.2em;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: $white;  
+    background-color: $purple2;
+    transform: scale(1.05); // Leve aumento no tamanho
+}
